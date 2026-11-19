@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="color_entries">
+        <item>Kırmızı</item>
+        <item>Turuncu</item>
+        <item>Kehribar</item>
+        <item>Yeşil</item>
+        <item>Camgöbeği</item>
+        <item>Mavi</item>
+        <item>Eflatun</item>
+        <item>Beyaz</item>
+    </string-array>
+
+    <string-array name="color_values">
+        <item>#FF0000</item>
+        <item>#FF6A00</item>
+        <item>#FFB000</item>
+        <item>#00FF00</item>
+        <item>#00FFFF</item>
+        <item>#0000FF</item>
+        <item>#FF00FF</item>
+        <item>#FFFFFF</item>
+    </string-array>
+
+    <string-array name="curve_entries">
+        <item>Yumuşak (sinüs) — nefes alır gibi</item>
+        <item>Doğrusal — sabit hızla</item>
+    </string-array>
+
+    <string-array name="curve_values">
+        <item>sine</item>
+        <item>linear</item>
+    </string-array>
+</resources>

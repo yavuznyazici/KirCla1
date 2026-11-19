@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KirCla</string>
+    <string name="settings_title">Ayarlar</string>
+    <string name="hint_double_tap">Ayarlar için ekrana çift dokunun</string>
+
+    <string name="cat_appearance">Görünüm</string>
+    <string name="cat_advanced">Gelişmiş</string>
+
+    <string name="pref_color_title">Ekran rengi</string>
+
+    <string name="pref_speed_title">Parlaklık değişim süresi (saniye)</string>
+    <string name="pref_speed_summary" formatted="false">%20 → %100 ve %100 → %20 geçişinin her birinin kaç saniye süreceği. Düşük değer = hızlı değişim.</string>
+
+    <string name="pref_curve_title">Dalga şekli</string>
+
+    <string name="pref_real_title">Gerçek ekran parlaklığı</string>
+    <string name="pref_real_summary">Açıkken telefonun donanım parlaklığı döngüyle değişir ve renk tam kalır. Kapalıyken yalnızca renk koyulaşıp açılır; telefonun parlaklığına dokunulmaz.</string>
+</resources>

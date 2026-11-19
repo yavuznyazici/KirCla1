@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="@string/cat_appearance">
+
+        <ListPreference
+            android:key="color"
+            android:title="@string/pref_color_title"
+            android:entries="@array/color_entries"
+            android:entryValues="@array/color_values"
+            android:defaultValue="#FF0000"
+            app:useSimpleSummaryProvider="true" />
+
+        <SeekBarPreference
+            android:key="ramp_seconds"
+            android:title="@string/pref_speed_title"
+            android:summary="@string/pref_speed_summary"
+            android:defaultValue="15"
+            android:max="60"
+            app:min="3"
+            app:showSeekBarValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/cat_advanced">
+
+        <ListPreference
+            android:key="curve"
+            android:title="@string/pref_curve_title"
+            android:entries="@array/curve_entries"
+            android:entryValues="@array/curve_values"
+            android:defaultValue="sine"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreferenceCompat
+            android:key="real_brightness"
+            android:title="@string/pref_real_title"
+            android:summary="@string/pref_real_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
